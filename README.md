@@ -30,3 +30,4 @@ Parei: 1:05:00
 Update Automatico - HOT RELOAD
 JSX - [J]ava[S]cript[X]ml
 props - objeto(parametros)
+CSS Variables - :root

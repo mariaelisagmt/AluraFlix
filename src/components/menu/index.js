@@ -2,17 +2,18 @@ import React from 'react';
 import Logo from '../../assets/img/BOOKVERSE.png';
 import './Menu.css';
 import ButtonLink from './components/ButtonLink';
+import Button from '../Button';
 
 function Menu() {
     return (
-        <nav className="Menu">
+        <MenuWrapper className="Menu">
             <a href="/">
-                <img className="Logo" src={Logo} alt="bookverse logo" />
+                <LogoImage src={Logo} alt="bookverse logo" />
             </a>
-            <ButtonLink className="ButtonLink" href="/">
+            <ButtonLink as="a" className="ButtonLink" href="/">
                 Novo Vídeo
             </ButtonLink>
-        </nav>
+        </MenuWrapper>
     );
 }
 
